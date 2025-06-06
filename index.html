@@ -1,80 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f8ff;
-        color: #333;
-        margin: 0;
-        padding: 0;
-    }
-    
-    header {
-        background-color: #0073e6;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-    
-    section {
-        padding: 20px;
-        margin: 20px;
-    }
-    
-    h1, h2 {
-        color: #0073e6;
-    }
-    
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    ul li {
-        display: inline-block;
-        margin-right: 15px;
-    }
-    
-    ul li a {
-        text-decoration: none;
-        color: #0073e6;
-        font-weight: bold;
-    }
-    
-    footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
-    </style>
+  <meta charset="UTF-8">
+  <title>Online Course Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Page</h1>
-        <p>Your one Go-to destination to know more about me!</p>
-    </header>
+  <header>
+    <h1>Welcome to Our Online Course Platform</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Harshini! I'm passionate about programming, debugging, and web development. I love exploring new technologies. As a part pf my exploration,i came through Hunar Intern,from i got internship offer letter in web development domain</p>
+  <main>
+    <section>
+      <h2>Start Your Learning Journey Today!</h2>
+      <p>Explore our wide variety of courses designed for your growth.</p>
     </section>
+  </main>
 
-    <section id="social">
-        <h2>Connect With Me</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/harshini-neeladhri-7a9401299" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/dashboard" target="_blank">GitHub</a></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>© 2025 Harshini | All Rights Reserved</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Online Course Website</p>
+  </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Course Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Online Course Platform</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Start Your Learning Journey Today!</h2>
+      <p>Explore our wide variety of courses designed for your growth.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Online Course Website</p>
+  </footer>
+</body>
+</html>
+<main>
+  <h2>Our Courses</h2>
+  <ul>
+    <li>Web Development Basics</li>
+    <li>Advanced JavaScript</li>
+    <li>UI/UX Design Principles</li>
+  </ul>
+</main>
+<main>
+  <h2>Register for a Course</h2>
+  <form>
+    <label>Name: <input type="text" name="name" required></label><br>
+    <label>Email: <input type="email" name="email" required></label><br>
+    <label>Select Course:
+      <select>
+        <option>Web Development</option>
+        <option>JavaScript</option>
+        <option>UI/UX</option>
+      </select>
+    </label><br>
+    <input type="submit" value="Register">
+  </form>
+</main>
+<main>
+  <h2>Contact Us</h2>
+  <p>Email: support@onlinecourse.com</p>
+  <p>Phone: +91-9876543210</p>
+</main>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
