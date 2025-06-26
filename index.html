@@ -3,30 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Netflix Clone</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Hunar Intern Clone</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Netflix Clone</h1>
+    <div class="container">
+      <h1>Hunar Intern</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="movie-list" class="movies"></section>
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to Hunar Intern</h2>
+      <p>Join our internship program and build your skills through hands-on projects.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
 
-    <div id="movie-detail" class="modal hidden">
-      <div class="modal-content">
-        <span id="close-btn">&times;</span>
-        <h2 id="detail-title"></h2>
-        <p id="detail-desc"></p>
-        <video controls id="video-player">
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+  <section class="features">
+    <div class="container">
+      <div class="feature-box">
+        <img src="https://img.icons8.com/color/96/000000/html-5.png" alt="HTML Icon">
+        <h3>HTML5</h3>
+        <p>Structure the web with semantic HTML5.</p>
+      </div>
+      <div class="feature-box">
+        <img src="https://img.icons8.com/color/96/000000/css3.png" alt="CSS Icon">
+        <h3>CSS3</h3>
+        <p>Style your pages with modern CSS3 layouts.</p>
+      </div>
+      <div class="feature-box">
+        <img src="https://img.icons8.com/color/96/000000/javascript--v1.png" alt="JS Icon">
+        <h3>JavaScript</h3>
+        <p>Bring interactivity and dynamic features to life.</p>
       </div>
     </div>
-  </main>
+  </section>
 
-  <script src="script.js"></script>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Hunar Intern. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
